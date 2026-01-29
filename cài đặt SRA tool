@@ -1,0 +1,5 @@
+$ cài đặt SRA tool
+conda install -c bioconda sra-tools 
+cd SRA
+prefetch --option-file “path/SRR_Acc_List.txt”
+fastq-dump --gzip --split-3 SRR*/SRR*.sra --outpdir SRR* (chạy từng file)
