@@ -1,0 +1,7 @@
+sample	condition
+cancer_164	cancer
+cancer_170	cancer
+cancer_260	cancer
+normal_1	normal
+normal_2	normal
+normal_3	normal

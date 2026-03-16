@@ -1,2 +1,2 @@
 # RNAseq-OSCC-analysis
-Differential gene expression analysis for OSCC using RNA-seq
+This repository provides a transcriptomic analysis workflow for Oral Squamous Cell Carcinoma (OSCC) using RNA-seq data, including differential gene expression analysis, enrichment analysis, and pathway-level interpretation.

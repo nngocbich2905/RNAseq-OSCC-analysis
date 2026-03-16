@@ -1,0 +1,9 @@
+#Download Public data
+## Cài đặt SRA tool
+conda install -c bioconda sra-tools 
+cd SRA 
+## Tạo danh sách chứa tên file SRRS 
+echo -e "SRR1234567\SRR1234568\SRR1234569" > SRR_Acc_List.txt  
+## Download file Fastq từ NCBI
+prefetch --option-file “/Volumes/Extreme SSD/Thesis/RNAseq_Test/SRA/SRR_Acc_List.txt”
+fastq-dump --gzip --split-3 SRR*/SRR*.sra --outpdir SRR* #chạy từng file

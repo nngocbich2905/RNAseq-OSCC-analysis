@@ -1,0 +1,14 @@
+{
+	"n_targets": 533740,
+	"n_bootstraps": 0,
+	"n_processed": 856574,
+	"n_pseudoaligned": 810535,
+	"n_unique": 64587,
+	"p_pseudoaligned": 94.6,
+	"p_unique": 7.5,
+	"kallisto_version": "0.51.1",
+	"index_version": 13,
+	"k-mer length": 31,
+	"start_time": "Sat Jan 17 14:53:18 2026",
+	"call": "kallisto quant -i /Volumes/Extreme SSD/Thesis/RNAseq_Test/transcriptome/transcriptome.idx -o /Volumes/Extreme SSD/Thesis/RNAseq_Test/Kallisto RNA-260_S2_L001_R1_001_val_1.fq.gz RNA-260_S2_L001_R2_001_val_2.fq.gz"
+}
